@@ -1,0 +1,14 @@
+namespace: defaut
+
+objectstore:
+  name: minecraft_store
+  size: 5Gi
+  hostPath:
+    path: /data/minecraft
+
+service:
+  name: minecraft
+  nodePort: 30995
+
+deployment:
+  name: minecraft

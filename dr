@@ -1,0 +1,1 @@
+docker run -d -it -e EULA=TRUE -e ALLOW_CHEATS=TRUE -e MODE=creative -e OPS=TheBroOfJared,JaredsBrother -v "/data/minecraft:/data" -p 25565:25565 itzg/minecraft-server
